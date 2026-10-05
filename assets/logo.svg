@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Vote Out Imposter logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061a11"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="10" y="10" width="492" height="492" rx="104" fill="none" stroke="rgba(52,211,153,.35)" stroke-width="6"/>
+  <!-- innocent shield -->
+  <path d="M256 96 128 150v96c0 76 54 128 128 164 74-36 128-88 128-164v-96z" fill="none" stroke="url(#shield)" stroke-width="26" stroke-linejoin="round"/>
+  <!-- imposter eyes -->
+  <circle cx="208" cy="236" r="26" fill="#34d399"/>
+  <circle cx="304" cy="236" r="26" fill="#f87171"/>
+  <!-- the vote-out cross -->
+  <path d="M196 330l120 96M316 330l-120 96" stroke="#fb7185" stroke-width="26" stroke-linecap="round"/>
+</svg>

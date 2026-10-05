@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#04140c">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Vote Out Imposter — a social deduction party game. Innocents share a secret word, imposters don't. Play pass-and-play on one device or online with friends. 3–20 players, works offline, no accounts.">
+  <title>Vote Out Imposter — Social Deduction Party Game</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="apple-touch-icon" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="module" src="./app/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <div class="app-shell">
+    <header class="top-nav">
+      <div class="inner">
+        <a class="brand" href="#/" aria-label="Vote Out Imposter">
+          <img src="./assets/favicon.svg" alt="" width="34" height="34">
+          <span class="brand-name">VOTE&nbsp;OUT&nbsp;<span>IMPOSTER</span></span>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a class="nav-link" href="#/" data-nav="game">Play</a>
+          <a class="nav-link" href="#/game/vote-out-imposter/rules" data-nav="rules">Rules</a>
+          <a class="nav-link" href="#/game/vote-out-imposter/settings" data-nav="settings">Settings</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1" aria-live="off">
+      <div class="container center" style="padding-top:12vh">
+        <p class="muted">Loading the game…</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div>VOTE OUT IMPOSTER · works offline · no accounts required</div>
+    </footer>
+  </div>
+
+  <div id="toasts" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <div id="sr-status" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
