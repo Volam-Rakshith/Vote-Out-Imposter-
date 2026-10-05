@@ -1,9 +1,0 @@
-# Supabase project configuration for Vote Out Imposter.
-# Docs: https://supabase.com/docs/guides/cli/config
-
-project_id = "vote-out-imposter"
-
-[functions.game]
-# The function implements its own per-player token auth; Supabase JWT
-# verification is disabled so guests can play without an account.
-verify_jwt = false
